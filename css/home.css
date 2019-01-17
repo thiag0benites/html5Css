@@ -9,8 +9,8 @@ body{
 }
 
 .cabecalho img{
-    height: 15%;
-    width: 15%;
+    height: 35%;
+    width: 35%;
 }
 
 .chamada{
@@ -64,6 +64,11 @@ body{
 
 /* Tela Grande */
 @media (min-width: 600px){
+    .cabecalho img{
+        height: 15%;
+        width: 15%;
+    }
+
     .chamada{
         padding: 30px;
     }

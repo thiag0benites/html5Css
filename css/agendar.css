@@ -9,8 +9,8 @@ body{
 }
 
 .cabecalho img{
-    height: 15%;
-    width: 15%;
+    height: 35%;
+    width: 35%;
 }
 
 .chamada{
@@ -21,15 +21,25 @@ body{
 .chamada h1{
     margin: 0;
     color: #fff;
-    font-size: 23px;
+    font-size: 15px;
     text-align: center; 
 }
 
-/*.imoveis{
-    text-align: center;
+.agendamento{
+    margin: 10px 5%;
 }
 
-.imoveis a{
+.agendamento h2{
+    color: #FF6E01;
+    font-size: 15px;
+}
+
+.agendamento article img{
+    height: 220px;
+    width: 360px;
+}
+
+/*.imoveis a{
     margin: 0 auto;
     padding: 10px 15px;
     background-color: #FF7814;
@@ -56,12 +66,31 @@ body{
 
 /* Tela Grande */
 @media (min-width: 600px){
+    .cabecalho img{
+        height: 15%;
+        width: 15%;
+    }
+
     .chamada{
         padding: 20px;
     }
 
     .chamada h1{
         font-size: 30px;
+    }
+
+    .agendamento{
+        margin: 30px 20%;
+    }
+
+    .agendamento h2{
+        font-size: 20px;
+    }
+    
+    .agendamento .cal{
+        height: 2%;
+        width: 2%;
+        color: #FF6E01;
     }
 
     /*.imoveis article{

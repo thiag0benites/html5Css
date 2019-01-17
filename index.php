@@ -21,26 +21,26 @@
             <article>
                 <img src="img/casa1.png" alt="casa 1">
                 <h2>Casa 1</h2>
-                <a href="orcamento.html">Pedir orçamento</a>
+                <a href="orcamento.php?img=casa1.png">Pedir orçamento</a>
             </article>
 
             <article>
                 <img src="img/casa2.png" alt="casa 2">
                 <h2>Casa 2</h2>
                 <input type="hidden">
-                <a href="orcamento.html">Pedir orçamento</a>
+                <a href="orcamento.php?img=casa2.png">Pedir orçamento</a>
             </article>
 
             <article>
                 <img src="img/casa3.png" alt="casa 3">
                 <h2>Casa 3</h2>
-                <a href="orcamento.html">Pedir orçamento</a>
+                <a href="orcamento.php?img=casa3.png">Pedir orçamento</a>
             </article>
 
             <article>
                 <img src="img/casa4.png" alt="casa 4">
                 <h2>Casa 4</h2>
-                <a href="orcamento.html">Pedir orçamento</a>
+                <a href="orcamento.php?img=casa1.png">Pedir orçamento</a>
             </article>
         </main>
     </body>
